@@ -1,0 +1,66 @@
+#Skin .s3{border: 1px solid #fff;width: 8px;height: 8px;border-radius: 100%;}
+
+/*框架配色修改*/
+.header{background: #098ac4;}
+.rt-col{background: #0080ba;border-bottom: 1px solid #017bb2;}
+.header .log span,.rt-col span{color: #0091d7;font-size: 12px;}
+.header .log,.header .log a,.rt-col,.rt-col a{color: #f2fdf4;}
+.header .log a:hover,.rt-col a:hover{color: #f2fdf4;}
+#top_menu li a{color:#fff;}
+#top_menu .on a,#top_menu li:hover a{background: #0080ba;color:#fff; }
+#content .col-left{background: #f9f9f9;border-right: 1px solid #dbdbdb;}
+#leftMain .f14{background: #f9f9f9;color: #333;border-left:3px solid #098ac4; font-weight: bold;border-bottom: 1px #e9e9e9 solid;border-top: 1px #e9e9e9 solid;}
+.crumbs{background: #f9f9f9}
+#leftMain ul li{border-bottom: 1px #e9e9e9 dotted;}
+#leftMain ul li a{display: block;color: #555555;}
+#leftMain ul .on a, #leftMain ul li:hover a {display: block;color: #f9f9f9;background: #0080ba;}
+#leftMain i {color: #f9f9f9;}
+#leftMain .on i {color: #f9f9f9;}
+.logo a:before,.logo a:after{color: #fff;}
+.content-menu a,.tabBut li{background: #fff;color: #098ac4;border: 1px solid #098ac4;}
+.tabBut li a{color: #098ac4;}
+.content-menu .on,.tabBut .on,.content-menu a:hover,.tabBut li:hover{background: #098ac4;color:#fff;border: 1px solid #098ac4;}
+.tabBut li:hover a{color: #fff;}
+.content-menu .add{color: #fff;border: 1px solid #098ac4;background: #098ac4;}
+
+/*信息提示配色修改*/
+body .showMsg{border: 1px solid #098ac4}
+body .showMsg h5{background: #098ac4}
+body .showMsg .bottom a{color: #098ac4}
+body .showMsg .guery:before{color:#098ac4}
+
+/*编辑器添加内容配色修改*/
+.addContent .button {background: #098ac4}
+.addContent .button:hover{background: #1c7da9}
+
+/*后台地图配色修改*/
+.map-menu ul{border:1px solid #098ac4}
+.map-menu ul li.title{background:#098ac4}
+
+/*框架菜单按钮配色修改*/
+.btn label, .btn a {background: #098ac4;color: #fff;border: 1px solid #098ac4;}
+
+/*登入界面配色修改*/
+#canvas{background:#098ac4;}
+.admin_login{box-shadow:0 -15px 30px #0080ba;}
+.admin_title{color: #098ac4;}
+.admin_user:hover,.admin_pwd:hover,.admin_val:hover{border-color:#098ac4}
+.submit_btn{background: #098ac4;color: #f3f3f3;}
+.submit_btn:hover{background: #0080ba;color: #f3f3f3;}
+.admin_info p{color: #098ac4;}
+.admin_user::before,.admin_pwd::before,.admin_val::before{color: #098ac4;}
+
+/*弹出窗dialog修改为简单的DIV层*/
+/*.aui_titleBar{background: #098ac4;}
+.aui_title {color: #fff;}
+.aui_close {color: #fff !important;}
+.aui_footer button {color: #333333;background-color: #ffffff;border-color: #cccccc;}
+.aui_footer button.aui_state_highlight {color: #ffffff;background-color: #098ac4;border-color: #098ac4;}
+.aui_footer button.aui_state_highlight:hover,.aui_footer button.aui_state_highlight:focus,.aui_footer button.aui_state_highlight:active {color: #ffffff;background-color: #098ac4;border-color: #098ac4;}*/
+
+.scroll{background: #f9f9f9;}
+.scroll a{background:#098ac4;}
+
+.cke_footer a{background: #098ac4;border: 1px solid #098ac4;}
+.cke_footer a:hover{background: #1c7da9;border: 1px solid #1c7da9;}
+#page_title_div .title{background: #098ac4;}

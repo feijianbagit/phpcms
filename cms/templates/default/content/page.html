@@ -1,0 +1,25 @@
+{template "content","header"}
+<!--网站容器-->
+<div class="container"> 
+	<div class="page">
+		<div class="content-box page-left">
+			<ul>
+			{loop $arrchild_arr $cid}
+				<li><a href="{$CATEGORYS[$cid]['url']}"{if $catid==$cid} class="page-current"{/if}>{$CATEGORYS[$cid]['catname']}</a></li>
+			{/loop}
+			</ul>
+		</div>
+		<div class="content-box page-right"> 
+			<div class="title">
+				<h2>{$title}</h2>
+				<span class="title-right">
+					当前位置：<a href="{siteurl($siteid)}">首页</a> &gt; {catpos($catid)} 正文</span>
+			</div>
+		   <div class="page-content">
+		        <h1>{$title}</h1>
+	 	    	<div class="content">{$content}</div>
+		   </div>
+		</div>
+	</div>
+</div>
+{template "content","footer"}
