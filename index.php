@@ -9,7 +9,7 @@ declare(strict_types=1);
 header('X-Frame-Options: SAMEORIGIN'); //防止被站外加入iframe中浏览
 
 // 是否是开发者模式（TRUE开启、FALSE关闭），上线之后建议关闭此开关
-define('IS_DEV', FALSE);
+define('IS_DEV', TRUE);
 
 // 后台管理标识
 !defined('IS_ADMIN') && define('IS_ADMIN', FALSE);
